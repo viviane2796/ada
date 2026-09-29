@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADA Compliant</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; }
+    .banner, .footer { background: #eee; padding: 20px; }
+    .content { max-width: 800px; margin: auto; padding: 20px; }
+    .site-title { font-size: 2rem; font-weight: bold; margin: 0 0 16px; }
+    .section-title { font-size: 1.5rem; font-weight: bold; margin: 24px 0 12px; }
+    .navigation a { margin-right: 20px; }
+
+    /* Hidden visually until reached with the keyboard. */
+    .skip-link {
+      position: absolute;
+      left: 16px;
+      top: -100px;
+      padding: 12px;
+      background: #fff;
+      color: #000;
+    }
+
+    .skip-link:focus { top: 16px; }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="banner">
+    <h1 class="site-title">Digital Media Learning Center</h1>
+
+    <nav class="navigation" aria-label="Primary">
+      <a href="#courses">Courses</a>
+      <a href="#resources">Resources</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="content" id="main-content" tabindex="-1">
+    <section>
+      <h2 class="section-title">Welcome</h2>
+      <p>Build your skills in web development and digital media.</p>
+    </section>
+
+    <section id="courses">
+      <h2 class="section-title">Our Courses</h2>
+      <p>Explore HTML, CSS, and multimedia production.</p>
+    </section>
+
+    <section id="resources">
+      <h2 class="section-title">Student Resources</h2>
+      <p>Find tutorials, practice activities, and project guides.</p>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact Us</h2>
+      <p>
+        Email:
+        <a href="mailto:learning@example.com">learning@example.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Digital Media Learning Center</p>
+  </footer>
+</body>
+</html>
